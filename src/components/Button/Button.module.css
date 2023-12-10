@@ -1,0 +1,14 @@
+.button {
+    height: fit-content;
+    display: flex;
+    align-self: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: #b7ddff;
+    white-space: nowrap;
+}
+.button:hover {
+    cursor: pointer;
+    background-color: #99c2ff;
+}

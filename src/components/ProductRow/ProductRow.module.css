@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    height: 80px;
+    background-color: #faebd7;
+}
+.container-details {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+}
+.button {
+    height: fit-content;
+    display: flex;
+    align-self: center;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border-width: 1px;
+    background-color: aliceblue;
+}
+.img {
+    width: 50px;
+    border-radius: 10px;
+}
+.information {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
